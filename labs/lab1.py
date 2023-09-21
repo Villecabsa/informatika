@@ -20,11 +20,12 @@ def task3():
 def task4():
     h = float(input('Введите h:'))
     a = float(input('Введите a:'))
-    l = (h**2 + (a/2)**2)**0.5
-    s = a**2 + 4 * (l*a*0.5)
+    s = a**2 + 4 * (((h**2 + (a/2)**2)**0.5)*a*0.5)
     v = 1/3*a**2*h
     return float("{0:.4f}".format(s)), float("{0:.4f}".format(v))
 def task5(x):
+    
+    
     pass
 def task6():
     a = float(input('Введите a:'))
