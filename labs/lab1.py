@@ -26,9 +26,8 @@ def task4():
 def task5(x):
     r = float(input('Введите r:'))
     a = float(input('Введите a:'))
-    s1 = m.pi*(r**2)
-    s2 = ((3**0.5)*a**2)/4
-    n = s2//s1
+    s = (a**2*(3**0.5))/4
+    n = s*(3**0.5)*(r**2)/2
     return float("{0:.4f}".format(n))
 def task6():
     a = float(input('Введите a:'))
