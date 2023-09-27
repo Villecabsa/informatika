@@ -24,9 +24,12 @@ def task4():
     v = 1/3*a**2*h
     return float("{0:.4f}".format(s)), float("{0:.4f}".format(v))
 def task5(x):
-    
-    
-    pass
+    r = float(input('Введите r:'))
+    a = float(input('Введите a:'))
+    s1 = m.pi*(r**2)
+    s2 = ((3**0.5)*a**2)/4
+    n = s2//s1
+    return float("{0:.4f}".format(n))
 def task6():
     a = float(input('Введите a:'))
     b = float(input('Введите b:'))
